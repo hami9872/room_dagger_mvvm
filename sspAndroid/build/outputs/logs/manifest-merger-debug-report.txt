@@ -1,0 +1,37 @@
+-- Merging decision tree log ---
+manifest
+ADDED from G:\CurrentProjects\Elocker\sspAndroid\src\main\AndroidManifest.xml:1:1-5:12
+INJECTED from G:\CurrentProjects\Elocker\sspAndroid\src\main\AndroidManifest.xml:1:1-5:12
+INJECTED from G:\CurrentProjects\Elocker\sspAndroid\src\main\AndroidManifest.xml:1:1-5:12
+INJECTED from G:\CurrentProjects\Elocker\sspAndroid\src\main\AndroidManifest.xml:1:1-5:12
+INJECTED from G:\CurrentProjects\Elocker\sspAndroid\src\main\AndroidManifest.xml:1:1-5:12
+INJECTED from G:\CurrentProjects\Elocker\sspAndroid\src\main\AndroidManifest.xml:1:1-5:12
+INJECTED from G:\CurrentProjects\Elocker\sspAndroid\src\main\AndroidManifest.xml:1:1-5:12
+	package
+		ADDED from G:\CurrentProjects\Elocker\sspAndroid\src\main\AndroidManifest.xml:2:5-29
+		INJECTED from G:\CurrentProjects\Elocker\sspAndroid\src\main\AndroidManifest.xml
+		INJECTED from G:\CurrentProjects\Elocker\sspAndroid\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from G:\CurrentProjects\Elocker\sspAndroid\src\main\AndroidManifest.xml:4:5-32
+		INJECTED from G:\CurrentProjects\Elocker\sspAndroid\src\main\AndroidManifest.xml
+		INJECTED from G:\CurrentProjects\Elocker\sspAndroid\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from G:\CurrentProjects\Elocker\sspAndroid\src\main\AndroidManifest.xml:1:11-69
+	android:versionCode
+		ADDED from G:\CurrentProjects\Elocker\sspAndroid\src\main\AndroidManifest.xml:3:5-28
+		INJECTED from G:\CurrentProjects\Elocker\sspAndroid\src\main\AndroidManifest.xml
+		INJECTED from G:\CurrentProjects\Elocker\sspAndroid\src\main\AndroidManifest.xml
+uses-sdk
+INJECTED from G:\CurrentProjects\Elocker\sspAndroid\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from G:\CurrentProjects\Elocker\sspAndroid\src\main\AndroidManifest.xml
+INJECTED from G:\CurrentProjects\Elocker\sspAndroid\src\main\AndroidManifest.xml
+INJECTED from G:\CurrentProjects\Elocker\sspAndroid\src\main\AndroidManifest.xml
+INJECTED from G:\CurrentProjects\Elocker\sspAndroid\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from G:\CurrentProjects\Elocker\sspAndroid\src\main\AndroidManifest.xml
+		ADDED from G:\CurrentProjects\Elocker\sspAndroid\src\main\AndroidManifest.xml
+		INJECTED from G:\CurrentProjects\Elocker\sspAndroid\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from G:\CurrentProjects\Elocker\sspAndroid\src\main\AndroidManifest.xml
+		ADDED from G:\CurrentProjects\Elocker\sspAndroid\src\main\AndroidManifest.xml
+		INJECTED from G:\CurrentProjects\Elocker\sspAndroid\src\main\AndroidManifest.xml

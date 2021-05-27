@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_height">45dp</dimen>
+    <dimen name="app_header">90dp</dimen>
+    <dimen name="edit_text_height">87dp</dimen>
+    <dimen name="edit_text_text_size">14dp</dimen>
+    <dimen name="header_title_size">18dp</dimen>
+    <dimen name="medium_text_size">12dp</dimen>
+    <dimen name="default_text_size">14dp</dimen>
+    <dimen name="x_default_text_size">16dp</dimen>
+    <dimen name="small_text_size">10dp</dimen>
+    <dimen name="large_text_size">18dp</dimen>
+    <dimen name="x_large_text_size">22dp</dimen>
+    <dimen name="xx_large_text_size">28dp</dimen>
+
+    <dimen name="about_us_font">16dp</dimen>
+
+    <dimen name="_0">0dp</dimen>
+    <dimen name="_1">1dp</dimen>
+    <dimen name="_2">2dp</dimen>
+    <dimen name="_3">3dp</dimen>
+    <dimen name="_4">4dp</dimen>
+    <dimen name="_5">5dp</dimen>
+    <dimen name="_6">6dp</dimen>
+    <dimen name="_7">7dp</dimen>
+    <dimen name="_8">8dp</dimen>
+    <dimen name="_9">9dp</dimen>
+    <dimen name="_10">10dp</dimen>
+    <dimen name="_11">11dp</dimen>
+    <dimen name="_12">12dp</dimen>
+    <dimen name="_13">13dp</dimen>
+    <dimen name="_14">14dp</dimen>
+    <dimen name="_15">15dp</dimen>
+    <dimen name="_16">16dp</dimen>
+    <dimen name="_17">17dp</dimen>
+    <dimen name="_18">18dp</dimen>
+    <dimen name="_19">19dp</dimen>
+    <dimen name="_20">20dp</dimen>
+    <dimen name="_21">21dp</dimen>
+    <dimen name="_22">22dp</dimen>
+    <dimen name="_23">23dp</dimen>
+    <dimen name="_24">24dp</dimen>
+    <dimen name="_25">25dp</dimen>
+    <dimen name="_26">26dp</dimen>
+    <dimen name="_27">27dp</dimen>
+    <dimen name="_28">28dp</dimen>
+    <dimen name="_29">29dp</dimen>
+    <dimen name="_30">30dp</dimen>
+    <dimen name="_34">34dp</dimen>
+    <dimen name="_35">35dp</dimen>
+    <dimen name="_40">40dp</dimen>
+    <dimen name="_50">50dp</dimen>
+    <dimen name="_60">60dp</dimen>
+    <dimen name="_70">70dp</dimen>
+    <dimen name="_80">80dp</dimen>
+    <dimen name="_90">90dp</dimen>
+    <dimen name="_100">100dp</dimen>
+    <dimen name="_120">120dp</dimen>
+
+    <dimen name="_10sp">10sp</dimen>
+    <dimen name="_12sp">12sp</dimen>
+    <dimen name="_14sp">14sp</dimen>
+    <dimen name="_16sp">16sp</dimen>
+    <dimen name="_18sp">18sp</dimen>
+    <dimen name="_20sp">20sp</dimen>
+    <dimen name="_22sp">22sp</dimen>
+    <dimen name="_24sp">24sp</dimen>
+    <dimen name="_26sp">26sp</dimen>
+    <dimen name="_28sp">28sp</dimen>
+    <dimen name="_32sp">32sp</dimen>
+
+    <dimen name="fragment_margin_top">40dp</dimen>
+    <dimen name="selected_button_height">87dp</dimen>
+    <dimen name="view_margin_top">12dp</dimen>
+    <dimen name="view_margin_bottom">20dp</dimen>
+    <dimen name="edit_text_margin_top">8dp</dimen>
+
+    <dimen name="app_margin">15dp</dimen>
+</resources>

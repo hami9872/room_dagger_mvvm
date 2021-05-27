@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1EB796</color>
+    <color name="colorPrimaryDark">#1EB796</color>
+    <color name="colorAccent">#1EB796</color>
+    <color name="appColor">#1EB796</color>
+    <color name="app_color_light">#F4F8FB</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_opacity_50_percent">#99FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="app_trans">#40fdd022</color>
+    <color name="text_grey_color">#42515D</color>
+    <color name="button_color">#465a65</color>
+
+    <color name="appHintColor">#b7b7b7</color>
+    <color name="appLineColor">#C4C4C4</color>
+    <color name="menu_line_color">#F3F3F3</color>
+    <color name="menu_text_gra_color">#C5CDCD</color>
+    <color name="menu_image_color">#0299DB</color>
+    <color name="orange"> #ff4a1e</color>
+    <color name="app_header_color">#5d4920</color>
+    <color name="green">#008000</color>
+    <color name="light_gray">#F0F0F0</color>
+
+</resources>
