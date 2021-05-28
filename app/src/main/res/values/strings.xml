@@ -1,128 +1,35 @@
 <resources>
-    <string name="app_name">Post</string>
-    <string name="email">Email</string>
-    <string name="password">Password</string>
-    <string name="please_check_network_connection">Please check your network connection</string>
-    <string name="please_wait">Please wait...</string>
-    <string name="open_lock_spinner_title">Opening Lock</string>
-    <string name="open_lock_spinner_description">Please Wait</string>
-    <string name="dialog_location_id_title">Set Location ID</string>
-    <string name="dialog_personal_id_title">Set Personal ID</string>
-    <string name="dialog_location_id_negative_title">Cancel</string>
-    <string name="dialog_location_id_positive_title">OK</string>
-    <string name="token_filename">access_token_preference_filename</string>
-    <string name="access_token_key">access_token_preference_key</string>
-    <string name="profile_preference_filename">profile_preference_filename</string>
-    <string name="permission_access_coarse_location_title">Ask Permission</string>
-    <string name="permission_access_coarse_location_content">In order to continue using this application please grant permission to use location</string>
-    <string name="permission_access_coarse_location_agree">OK</string>
-    <string name="permission_access_coarse_location_disagree">Cancel</string>
-    <string name="notify_user_gps_require_enabling_title">Enable GPS</string>
-    <string name="notify_user_gps_require_enabling_content">Please enable GPS to continue using this application</string>
-    <string name="notify_user_gps_require_enabling_agree">OK</string>
-    <string name="notify_user_gps_require_enabling_disagree">Cancel</string>
-
-    <string name="no_bluetooth_adapter">No bluetooth adapter on this device</string>
-    <string name="login_in">Login</string>
+    <string name="app_name">My Animals</string>
+    <string name="gender_unknown">Unknown</string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="my_animals">My Animals</string>
+    <string name="update">Update</string>
+    <string name="add">Add</string>
+    <string name="please_enter_the_name">Please enter the Name</string>
+    <string name="please_enter_the_age">Please enter the Age</string>
+    <string name="please_enter_the_breed">Please enter the Breed</string>
+    <string name="please_enter_the_image">Please Add the image</string>
+    <string name="are_sure_you_want_to_delete">Are you sure you want to delete ?</string>
+    <string name="overview">Overview</string>
     <string name="name">Name</string>
-    <string name="mobile">Mobile#</string>
-    <string name="confirm_password">Confirm Password</string>
-    <string name="please_enter_your_email">Please enter your email.</string>
-    <string name="please_enter_valid_email_address">Please enter valid email address.</string>
-    <string name="please_enter_your_password">Please enter your password.</string>
-    <string name="minimum_password_length_should_be">Minimum password length should be</string>
-    <string name="forgot_password">
-        <u>Forgot Password?</u>
-    </string>
-    <string name="don_t_have_an_account">
-        <u>Don\'t have an account?</u>
-    </string>
-    <string name="register">Register</string>
-    <string name="send_email">Send Email</string>
-    <string name="agree_to_terms_conditions">
-        <u>Terms &amp; Conditions</u>
-    </string>
-    <string name="privacy_policy">
-        <u>Privacy Policy</u>
-    </string>
-    <string name="remember_me">Remember me?</string>
+    <string name="age">Age</string>
+    <string name="breed">Breed</string>
+    <string name="gender">Gender</string>
+    <string name="delete">Delete</string>
+    <string-array name="array_gender_options">
+        <item>@string/gender_unknown</item>
+        <item>@string/gender_male</item>
+        <item>@string/gender_female</item>
+    </string-array>
 
-    <string name="exam_category">Exam Category</string>
-    <string name="about_us_1">Los exámenes que encontrarás en esta aplicación han tomado como base las soluciones
-        ofrecidas por el Ministerio de Justícia de España.
-    </string>
-    <string name="about_us_2">AbogaciaTest es una aplicación por y para estudiantes, para ayudarnos en la árdua tarea de
-        preparación para el examen más importante de nuestra carrera: la que nos abrirá la puerta al mundo de la
-        abogacía.
-    </string>
-    <string name="email_id">
-        <u>info@agdabogados.com</u>
-    </string>
-    <string name="web">
-        <u>www.agdabogados.com</u>
-    </string>
+    <string-array name="animal_species_name">
+        <item>Birds</item>
+        <item>Insects</item>
+        <item>Mammals</item>
+        <item>Fish</item>
+        <item>Reptiles</item>
+        <item>Vertebrates</item>
+    </string-array>
 
-    <string name="question">La empresa Playmusic, S.L, contrata al abogado Jaime para que se querelle contra un antiguo
-        empleado, Manuel, quién se ha llevado documentos internos de la empresa y los ha entregado a otro empresario.
-        Antes de formular la querella, Jaime negocia un acuerdo con Emelina, la abogada de Manuel, a fin de que éste
-        reconozca los hechos, devuelva la documentación e indemnice a Playmusic. El acuerdo lo redacta Isabel, empleada
-        de Emelina, pero el día de la firma Manuel no lo acepta, por lo que Emelina renuncia a representarlo. Por su
-        parte, Jaime se aparta del caso y se lo cede a una compañera de despacho Helena, quien presenta una querella
-        contra Manuel y pide como diligencias de investigación la declaración testifical de Emelina e Isabel y el
-        documento que iba a firmar Manuel. ¿Puede Helena proponer esas pruebas con arreglo a los criterios deontológicos
-        profesionales?
-    </string>
-    <string name="test">Test</string>
-    <string name="resulltados">Resulltados</string>
-    <string name="privacy_policyy">Privacy Policy</string>
-    <string name="term_and_condition">Terms &amp; Conditions</string>
-    <string name="about_us">About Us</string>
-    <string name="logout">Log Out</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="username">Username</string>
-    <string name="login_with_face_id">Login with Face ID</string>
-    <string name="login_with_touch_id">Login with Touch ID</string>
-    <string name="login_with_google">Login with google</string>
-    <string name="log_in_linkedin">Log in Linkedin</string>
-    <string name="scan_company_qr_code">Scan company QR code</string>
-    <string name="scan_now">Scan now</string>
-    <string name="cancel">Cancel</string>
-    <string name="enter_your_company_email_to_register_this_device">Enter your company email to \nregister this device</string>
-    <string name="email_registration_requested">Email registration requested</string>
-    <string name="you_will_receive_an_email_with_a_confirmation_link">You will receive an email with a confirmation link</string>
-    <string name="send_again"><u>Send Again</u></string>
-    <string name="not_received_the_email">Not received the email?</string>
-    <string name="setup_a_password">Setup a password</string>
-    <string name="code">Code</string>
-    <string name="first_name">First name</string>
-    <string name="last_name">Last name</string>
-    <string name="enable_touch_id">enable touch ID</string>
-    <string name="go_home">Go home</string>
-    <string name="congratulations">Congratulations</string>
-    <string name="you_have_successfully_registered">You have successfully registered!</string>
-    <string name="my_lockers">My Lockers</string>
-    <string name="new_locker">New Locker</string>
-    <string name="log_out">Log Out</string>
-    <string name="allocated">Allocated</string>
-    <string name="your_locker">Your Locker</string>
-    <string name="locker_has_opened">locker has opened</string>
-    <string name="ok">Ok</string>
-    <string name="get_lockers">Get Lockers</string>
-    <string name="scan_the_qr_code_on_the_locker_bank">Scan the QR code on the locker bank</string>
-    <string name="find_by_bluetooth">Find by Bluetooth</string>
-    <string name="searching_for_a_locker_bank">Searching for a Locker Bank</string>
-    <string name="blue_zone">Blue zone</string>
-    <string name="select">Select</string>
-    <string name="signup"><u>SignUp</u></string>
-    <string name="enter_your_email_below_to_receive_your_password_reset_instructions">Enter your email below to receive your password reset instructions.</string>
-    <string name="allocation_successful">Allocation Successful</string>
-    <string name="error">Error</string>
-    <string name="link_sent">Link Sent !!</string>
-    <string name="an_email_with_appropriate_link">An email with appropriate link and instructions has been sent to your email.</string>
-    <string name="password_not_matched">Password not matched</string>
-    <string name="please_enter_your_first_name">Please enter your First Name</string>
-    <string name="please_enter_your_last_name">Please enter your Last name</string>
-    <string name="are_you_sure_you_want_logout">Are you sure you want to Logout?</string>
 </resources>

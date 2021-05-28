@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+                name="model"
+                type="com.animal.models.AnimalModel" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginBottom="@dimen/_20"
+            android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+                android:id="@+id/mainCV"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="@dimen/_10"
+
+                app:layout_constraintBottom_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/imageCL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_10">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/mainCL"
+                        android:layout_width="@dimen/_0"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintEnd_toStartOf="@+id/favIV"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                    <RelativeLayout
+                            android:id="@+id/imageRL"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/imageView"
+                                android:layout_width="@dimen/_80"
+                                android:layout_height="@dimen/_80" />
+
+                        <androidx.cardview.widget.CardView
+                                android:layout_width="@dimen/_30"
+                                android:layout_height="@dimen/_30"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginTop="@dimen/_15"
+                                android:layout_marginEnd="@dimen/_15"
+                                android:visibility="gone"
+                                app:cardBackgroundColor="@color/white_opacity_50_percent"
+                                app:cardCornerRadius="@dimen/_50">
+
+                            <ImageView
+                                    android:id="@+id/deleteIV"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center"
+                                    android:padding="@dimen/_5"
+                                    android:src="@drawable/ic_baseline_delete_24" />
+                        </androidx.cardview.widget.CardView>
+
+                    </RelativeLayout>
+
+                    <TextView
+                            android:id="@+id/titleTV"
+                            android:layout_width="@dimen/_0"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_10"
+                            android:maxLines="1"
+                            android:paddingStart="@dimen/_10"
+                            android:paddingEnd="@dimen/_10"
+                            android:text="@{model.name}"
+                            android:textColor="@android:color/black"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/imageRL"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                            android:id="@+id/descTV"
+                            android:layout_width="@dimen/_0"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_3"
+                            android:paddingStart="@dimen/_10"
+                            android:paddingEnd="@dimen/_10"
+                            android:paddingBottom="@dimen/_10"
+                            android:text="@{model.breed +' ' +'/'+' '+ model.age}"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/imageRL"
+                            app:layout_constraintTop_toBottomOf="@+id/titleTV" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <ImageView
+                        android:id="@+id/favIV"
+                        android:layout_width="@dimen/_50"
+                        android:layout_height="@dimen/_50"
+                        android:padding="@dimen/_10"
+                        android:src="@drawable/fav_selecter"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

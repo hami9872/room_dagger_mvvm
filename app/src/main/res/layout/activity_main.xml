@@ -9,8 +9,10 @@
             android:background="@color/light_gray"
             android:gravity="center_horizontal"
             android:orientation="vertical"
-            android:padding="@dimen/_20"
+
             tools:context=".views.activities.MainActivity">
+        <include android:id="@+id/headerV"
+            layout="@layout/app_header"/>
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
                 android:id="@+id/addPost"
@@ -27,11 +29,14 @@
         <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recyclerView"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="@dimen/_0"
+                android:layout_marginTop="@dimen/_10"
+                android:padding="@dimen/_10"
                 app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/headerV" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 

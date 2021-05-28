@@ -24,17 +24,7 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="App_TextViewStyle" parent="@android:style/Widget.TextView">
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_width">wrap_content</item>
-        <item name="fontFamily">@font/regular_font</item>
-    </style>
 
-    <style name="App_BoldTextViewStyle" parent="@android:style/Widget.TextView">
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_width">wrap_content</item>
-        <item name="fontFamily">@font/bold_font</item>
-    </style>
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
 </resources>
